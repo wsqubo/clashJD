@@ -2,10 +2,8 @@ name: Process
 on:
   schedule:
     - cron: "45 01 * * *"
-    - cron: "45 05 * * *"
-    - cron: "45 09 * * *"
+    - cron: "45 07 * * *"
     - cron: "45 13 * * *"
-    - cron: "45 17 * * *"
     - cron: "45 21 * * *"
   workflow_dispatch:
 
